@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,500,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+
+html {
+    -webkit-font-smoothing: antialiased;
+
+}
+
+body {
+    background-color: rgb(248, 248, 255);
+}
+
+#s1 {
+    height: 2300px;
+}
+#s2 {
+    height: 300px;
+}
+#s3 {
+    height: 800px;
+}
+
+/*-------------------- navbar -----------------------*/
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    height: 54px;
+    transition: top 0.5s ease-in-out, background-color 0.5s ease-in-out, border-bottom 0.5s ease-in-out;
+}
+
+header a, header a:link, header a:visited, header a:active {
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px 21px 20px;
+    font-size: 16px;
+    margin-top: -16px;
+    margin-left: -4px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+header a:hover {
+    background-color: lightgray;
+}
+
+.nav-up {
+    top: -54px;
+}
+
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+
+.bg {
+    min-height: 100%;
+    min-width: 960px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+#overskrift2 {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    width: 400px;
+    margin-left: -200px;
+    text-align: center;
+    font-size: 50pt;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.tekst2 {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    width: 600px;
+    margin-left: -300px;
+    text-align: center;
+}
+
+.tekst li, .tekst2 li, .tekst2 a, .tekst2 a:link, .tekst2 a:visited, .tekst2 a:active {
+    list-style: none;
+    display: inline-block;    
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25pt;
+    padding: 0 15px 0 15px;
+    text-decoration: none;
+}
+
+
+
+
+/* -------------- About me ----------------- */
+
+#test h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+#test img {
+    max-width:100%;
+    max-height:100%;
+}
+
+#test {
+    position: absolute;
+    top: 100%;
+    height: 1300px;
+    width: 600px;
+    left: 50%;
+    margin-left: -300px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+    letter-spacing: 0px;
+    line-height: 150%;
+    word-spacing: 2px;
+    text-align: justify
+}
+
+
+/* ------------------- Work -------------------------- */
+
+.workpage {
+    position: absolute;
+    width: 800px;
+    left: 50%;
+    margin: 50px 0 0 -400px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.workpage i{
+    padding-top: 50px;
+    margin-left: 380px;
+}
+
+/* ------------------- Contact ----------------------- */
+
+.indholdContact {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    height: 200px;
+    width: 600px;
+    margin: 0 0 0 -300px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.indholdContact i {
+    display: inline-block
+}
+.indholdContact p {
+    display: inline-block;
+    font-size: 18pt;
+    margin: 0px 0 0 40px;
+}
+
+
+
+/* ------------------- Footer ------------------------ */
+
+footer {
+    position: relative;
+    margin: 0 0 0 -400px;
+    height: 200px;
+    width: 800px;
+    left: 50%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#endabout {
+    width:350px;
+    float: left;
+    padding-right: 50px;
+}
+
+#endcontact {
+    width: 350px;
+    float: right;
+    padding-left: 50px;
+}
+
+
+#omsiden {
+    position: relative;
+    left: 50%;
+    height: 150px;
+    width: 600px;
+    margin: 40px 0 0 -300px;
+    font-family: 'Open Sans', sans-serif;
+}
